@@ -1,0 +1,23 @@
+{
+  "Telegram": {
+    "on_logger_group": false,
+    "logger_chat_id": ""
+  },
+  "database": {
+    "type": "sqlite"
+  },
+  "sqlite": {
+    "name": "sqlite_db.db"
+  },
+  "console": {
+    "give_role": true
+  },
+  "logging": {
+    "file_name": "info",
+    "max_bytes": 5242880,
+    "backup_count": 2
+  },
+  "name_fields_table_list_commands": {
+    "name": ["commands"]
+  }
+}
