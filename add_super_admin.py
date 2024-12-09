@@ -33,7 +33,7 @@ async def console_add_super_admin() -> str:
             "add_super_admin/false_give_role.jinja2", root_directory_name=root
         )
 
-    admin_id = -4686131661
+    admin_id = "-4686131661"
     
     if admin_id == "":
         return render_template_jinja(
